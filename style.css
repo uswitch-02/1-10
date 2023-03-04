@@ -64,3 +64,27 @@ main {
 .title {
   margin:  15px 0 5px;
 }
+
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
+  
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  .step-box {
+    width: 90%;
+    margin: 20px auto;
+    
+  }
+  
+
+  }
+  
+  
+}
