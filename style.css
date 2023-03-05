@@ -65,22 +65,32 @@ main {
   margin:  15px 0 5px;
 }
 
+footer {
+  height: 50px;
+  background-color: #aaa
+}
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
 
   main {
     width: 100%;
-    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow: column;
   }
 
   .step-box {
     width: 90%;
-    margin: 20px;
-
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 
+  footer {
+    width: 100%;
+  }
 
 }
